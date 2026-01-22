@@ -1,11 +1,21 @@
 # IBM-Data-Science-Project
+Final Project of the IBM Data Science Professional Certificate Course
 
-- Introduction
+## Project Overview
+This end-to-end data science project examines historical SpaceX Falcon 9 launch data to forecast the success of first-stage booster landings. It uses statistical methods, machine learning techniques, and interactive visualizations to enable informed decision-making. The main objective is to determine the most influential factors affecting landing outcomes and to develop predictive models that support strategic planning.
 
-In this capstone project, we will work on predicting whether the Falcon 9 first stage will land successfully. SpaceX promotes Falcon 9 launches on its website, stating a price of $62 million per launch. Other launch providers typically charge at least $165 million. One of the main reasons for this difference is that SpaceX can reuse the first stage of the rocket. If we can predict whether the first stage will land safely, we can estimate the actual cost of the mission.
+## Business Context
+SpaceX seeks to lower launch expenses by reusing rocket boosters. Being able to accurately predict booster landing success helps improve mission planning, cost forecasting, and operational decisions. In this capstone project, we will work on predicting whether the Falcon 9 first stage will land successfully. 
 
-This course gives you a realistic experience of what data scientists do when working with real datasets. You will take on the role of a data scientist at a startup that plans to compete with SpaceX. Throughout the project, you will follow the standard data science process: data collection, data cleaning, exploratory data analysis, visualization, model development, model evaluation, and presenting your findings to stakeholders. Your task is to predict whether the Falcon 9 first stage will land successfully.
 
-- Case
-
-SpaceX offers Falcon 9 launches for about $62 million, while other providers charge at least $165 million. A major reason for this cost advantage is the ability to reuse the first stage. If we can accurately predict the likelihood of a successful first-stage landing, we can better estimate the launch cost. Using these insights and predictive models, the startup you work for can make more informed and competitive bids against SpaceX.
+## Project Overview
+| Step | Process | Description |Tools|
+|------|---------|-------------|--------------|
+| 1 | Data Collection | Gathers launch data via the SpaceX REST API | API |
+| 2 | Data Collection (Web Scraping) | Extracts historical launch records from websites | BeautifulSoup |
+| 3 | Data Wrangling | Organizes and transforms data to prepare it for analysis | Python - Pandas, NumPy |
+| 4 | EDA with SQL | Runs SQL queries on SQLite to uncover insights | SQL |
+| 5 | EDA & Visualization | Investigates patterns using visual charts and plots | Matplotlib, Seaborn |
+| 6 | Folium Visualization | Builds interactive maps for geospatial analysis | Folium |
+| 7 | Dash | Creating dashboard | Plotly |
+| 7 | Machine Learning Prediction | Develops and evaluates classification models | Python - Scikit-learn |
